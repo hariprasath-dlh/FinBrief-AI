@@ -23,7 +23,7 @@ FinBrief AI is an NLP-based application that converts long financial news articl
 * Natural Language Processing (NLP)
 
 ---
-
+```
 ## 📁 Project Structure
 
 FinBrief-AI/
@@ -33,7 +33,7 @@ FinBrief-AI/
 │── sample_input.txt
 │── output.txt
 │── README.md
-
+```
 ---
 
 ## ⚙️ How It Works
