@@ -1,55 +1,104 @@
-# FinBrief AI
+# 🚀 FinBrief AI – Financial News Summarizer
 
-A beginner-friendly NLP project that takes financial news articles as input and generates short, concise summaries using pre-trained transformer models.
+FinBrief AI is an NLP-based application that converts long financial news articles into short, meaningful summaries using transformer models. It helps users quickly understand key financial insights without reading lengthy content.
 
-## Features
-- **Easy to Use:** Run a simple Python script to summarize text.
-- **Flexible Input:** Type your text directly into the console or read from a text file.
-- **State-of-the-Art NLP:** Powered by Hugging Face Transformers (`facebook/bart-large-cnn`) for high-quality abstractive summarization.
-- **No Training Required:** Leverages powerful pre-trained models.
+---
 
-## Tech Stack
-- Python 3.x
-- Hugging Face `transformers`
-- PyTorch
+## 📌 Features
 
-## Project Structure
-```text
+* 📰 Summarizes long financial news articles
+* ⚡ Uses pre-trained transformer model (BART)
+* 🧠 Dynamic summary length based on input size
+* 🔁 Reduces repetition for better readability
+* 📂 Supports both manual input and file input
+* 💡 Clean and beginner-friendly implementation
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Hugging Face Transformers
+* PyTorch
+* Natural Language Processing (NLP)
+
+---
+
+## 📁 Project Structure
+
 FinBrief-AI/
-│── main.py            # Main execution script
-│── summarizer.py      # Core logic for loading model and summarizing text
-│── requirements.txt   # Python dependencies
-│── README.md          # Project documentation 
-│── sample_input.txt   # Sample article for testing
-│── output.txt         # File to store the generated summary
-```
+│── main.py
+│── summarizer.py
+│── requirements.txt
+│── sample_input.txt
+│── output.txt
+│── README.md
 
-## How to Run the Project
+---
 
-1. **Open the Terminal**
-   Navigate to the project directory in your terminal or Command Prompt.
+## ⚙️ How It Works
 
-2. **Install Required Libraries**
-   Run the following command to install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. User provides financial news text (manual input or file)
+2. The system processes the text using a transformer model
+3. Important information is extracted and compressed
+4. A concise summary is generated and displayed
 
-3. **Run the Application**
-   Execute the `main.py` script:
-   ```bash
-   python main.py
-   ```
+---
 
-4. **Follow the Prompts**
-   - You can choose to use the text provided in `sample_input.txt` or type/paste your own text.
-   - Wait for the model to generate the summary (the first run will take some time to download the model).
-   - Check `output.txt` for the saved summary.
+## ▶️ How to Run the Project
 
-## Sample Input/Output
+### Step 1: Clone the repository
 
-**Input (`sample_input.txt`):**
-> Apple Inc. on Thursday reported fiscal first-quarter net income of $33.92 billion. The Cupertino, California-based company said it had profit of $2.18 per share. The results surpassed Wall Street expectations...
+git clone https://github.com/YOUR_USERNAME/FinBrief-AI.git
 
-**Output (`output.txt`):**
-> Apple Inc. reported fiscal first-quarter net income of $33.92 billion. The Cupertino, California-based company said it had profit of $2.18 per share. The results surpassed Wall Street expectations.
+### Step 2: Navigate to the project folder
+
+cd FinBrief-AI
+
+### Step 3: Install dependencies
+
+pip install -r requirements.txt
+
+### Step 4: Run the project
+
+python main.py
+
+---
+
+## 🧪 Sample Input
+
+Global financial markets experienced volatility as investors reacted to economic data, corporate earnings, and central bank policies. Major companies reported strong results, but inflation concerns and rising interest rates affected investor sentiment.
+
+---
+
+## ✨ Sample Output
+
+Markets showed volatility due to strong earnings and inflation concerns, while central banks signaled continued high interest rates impacting investor sentiment.
+
+---
+
+## 🧠 Key Concept
+
+This project uses a transformer-based encoder-decoder model (BART) for abstractive summarization. It identifies important contextual information and generates concise summaries while preserving key financial terms.
+
+---
+
+## 🎯 Future Improvements
+
+* Web-based user interface
+* Real-time news API integration
+* Multi-language summarization
+* Voice input support
+
+---
+
+## 👨‍💻 Author
+
+Hariprasath
+B.Tech Artificial Intelligence and Data Science
+
+---
+
+## 📌 Note
+
+This project is developed for academic purposes to demonstrate NLP-based text summarization using modern transformer models.
